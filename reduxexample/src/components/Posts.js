@@ -23,10 +23,6 @@ class Posts extends Component {
   }
 }
 
-Posts.PropTypes = {
-  fetchPosts: Proptypes.func.isRequired,
-  posts: PropTypes.arrray.isRequired
-}
 
 const mapStateToProps = state => ({
   posts: state.posts.items
